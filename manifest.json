@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Claude Chat Deleter",
+  "version": "1.0",
+  "description": "Safely delete all chats from Claude AI",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "https://claude.ai/*"
+  ],
+  "browser_action": {
+    "default_title": "Claude Chat Manager",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://claude.ai/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
