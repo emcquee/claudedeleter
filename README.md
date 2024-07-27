@@ -1,3 +1,2 @@
-#Claude #Deleter
-
-A firefox extension to bulk delete claude.ai messages.
+# Claude Deleter
+A Firefox extension to bulk delete claude.ai messages.
